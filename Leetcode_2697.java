@@ -30,7 +30,7 @@ Explanation: The minimum number of operations to make "seven" a palindrome is 1,
 public class Leetcode_2697 
 {
     public static void main(String[] args) 
-    {
+    { 
         String s = "egcfe";
         System.out.println(makeSmallestPalindrome(s));
     }   
