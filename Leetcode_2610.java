@@ -1,7 +1,7 @@
 /*
   2610. Convert an Array Into a 2D Array with Conditions
 
-  ou are given an integer array nums. You need to create a 2D array from nums satisfying the following conditions:
+  You are given an integer array nums. You need to create a 2D array from nums satisfying the following conditions:
 
 The 2D array should contain only the elements of the array nums.
 Each row in the 2D array contains distinct integers.
