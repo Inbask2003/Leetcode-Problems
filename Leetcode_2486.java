@@ -40,7 +40,7 @@ s and t consist only of lowercase English letters
 
   take two pointers i & j equal for two string length initially i & j = 0 upto String1 & String2 length coresspondely
   if(s1.charAt(i) == s2.charAt(j)) --> count++ and i++,j++;
-  else i++ becaues string1 next character will be equal for string2 current character
+  else i++ becaues string1 next character will be equal for string2 current character.
  */
 
 public class Leetcode_2486
