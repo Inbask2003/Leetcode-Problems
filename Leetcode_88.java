@@ -38,6 +38,15 @@ nums2.length == n
 -109 <= nums1[i], nums2[j] <= 109
  */
 
+/*
+  Procedures :
+  length1 is m-1 & length2 is n-1 & index = m+n-1
+  loop through length2-- t0 0
+  if length1 greater than or equal to 0 and nums1[length1--] > nums2[length2--] then nums[index--] = nums1[length1--]
+  else nums1[index--] = nums2[length2--]
+
+ */
+
 public class Leetcode_88
 {
     public static void main(String[] args)
