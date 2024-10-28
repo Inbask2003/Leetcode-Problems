@@ -1,20 +1,21 @@
-public class ListNode
+public class Node
 {
-    int val;
-    ListNode next;
+    int data;
+    Node next;
 
-    ListNode()
+    Node()
     {
 
     }
 
-    ListNode(int val)
+    Node(int data)
     {
-
+        this.data = data;
     }
 
-    ListNode(int val,ListNode next)
+    Node(int data,Node next)
     {
-
+        this.data = data;
+        this.next = next;
     }
 }
